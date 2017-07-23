@@ -1,0 +1,63 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o E:/ArquitecturaPC/Procesador/main_Processor_tb_isim_beh.exe -prj E:/ArquitecturaPC/Procesador/main_Processor_tb_beh.prj work.main_Processor_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/WM.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/UC.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/SEU30.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/SEU22.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/SEU.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/RF.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/PSR_modifier.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/PSR.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/PC.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/nPC.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/muxRFRD.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/muxPCSource.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/immMUX.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/IM.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/dwrMUX.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/DM.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/ALU.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/adderPC30.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/adderPC22.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/adder.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/main_PC.vhd" into library work
+Parsing VHDL file "E:/ArquitecturaPC/Procesador/main_Processor_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling architecture behavioral of entity nPC [npc_default]
+Compiling architecture behavioral of entity adder1 [adder1_default]
+Compiling architecture behavioral of entity PC [pc_default]
+Compiling architecture behavioral of entity IM [im_default]
+Compiling architecture behavioral of entity UC [uc_default]
+Compiling architecture behavioral of entity RF [rf_default]
+Compiling architecture behavioral of entity SEU [seu_default]
+Compiling architecture behavioral of entity immMUX [immmux_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity PSR_modifier [psr_modifier_default]
+Compiling architecture behavioral of entity PSR [psr_default]
+Compiling architecture behavioral of entity WM [wm_default]
+Compiling architecture behavioral of entity DM [dm_default]
+Compiling architecture behavioral of entity dwrMUX [dwrmux_default]
+Compiling architecture behavioral of entity muxPCSource [muxpcsource_default]
+Compiling architecture behavioral of entity muxRFRD [muxrfrd_default]
+Compiling architecture behavioral of entity SEU22 [seu22_default]
+Compiling architecture behavioral of entity SEU30 [seu30_default]
+Compiling architecture behavioral of entity adderPC30 [adderpc30_default]
+Compiling architecture behavioral of entity adderPC22 [adderpc22_default]
+Compiling architecture behavioral of entity main_Processor [main_processor_default]
+Compiling architecture behavior of entity main_processor_tb
+Time Resolution for simulation is 1ps.
+Waiting for 20 sub-compilation(s) to finish...
+Compiled 49 VHDL Units
+Built simulation executable E:/ArquitecturaPC/Procesador/main_Processor_tb_isim_beh.exe
+Fuse Memory Usage: 37248 KB
+Fuse CPU Usage: 951 ms
